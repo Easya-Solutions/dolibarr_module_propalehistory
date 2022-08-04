@@ -41,6 +41,9 @@ if (! $user->admin) {
 // Parameters
 $action = GETPOST('action', 'alpha');
 
+// keep version number on restoring
+$formSetup->newItem('PROPALEHISTORY_RESTORE_KEEP_VERSION_NUM')->setAsYesNo();
+
 /*
  * Actions
  */

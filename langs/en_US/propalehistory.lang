@@ -20,9 +20,11 @@ PropalHistoryAutoArchiveAndArchiveOnModifyCantBeUsedBoth=Archiving at validation
 
 PROPALEHISTORY_ARCHIVE_PDF_TOO=Archive the PDF too
 PROPALEHISTORY_HIDE_VERSION_ON_TABS=Hide version number in tabs
+PROPALEHISTORY_RESTORE_KEEP_VERSION_NUM = Keep version number on restoring
 
 ReturnInitialVersion=Return initial version
 PropaleHistoryArchiver=Archive
 Visualiser=Show
 Restaurer=Restore
 VersionNumberShort = Version No.
+PropaleHistoryVersionNum = Version number
