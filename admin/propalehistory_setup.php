@@ -69,6 +69,8 @@ $formSetup->newItem('PROPALEHISTORY_ARCHIVE_PDF_TOO')->setAsYesNo();
 // Demander la création d'un nouvelle version à la modification d'une proposition
 $formSetup->newItem('PROPALEHISTORY_ARCHIVE_ON_MODIFY')->setAsYesNo();
 
+// Label to use for release number
+$formSetup->newItem('PROPALEHISTORY_LABEL_RELEASE_NUMBER')->setAsString()->helpText = $langs->transnoentities('PROPALEHISTORY_LABEL_RELEASE_NUMBER_info');
 
 $formSetup->newItem('EXPERIMENTAL_OPTIONS')->setAsTitle();
 
