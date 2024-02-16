@@ -14,6 +14,8 @@ HistoryVersionSuccessfullDelete   = Version was deleted successfully
 HistoryVersionSuccessfullRestored = Version proposal successfully restored
 
 PROPALEHISTORY_ARCHIVE_ON_MODIFY = Ask archiving when modifying a proposal
+PROPALEHISTORY_LABEL_RELEASE_NUMBER = Label or translation key used to identify the version number
+PROPALEHISTORY_LABEL_RELEASE_NUMBER_info = By default the version number and identified by a '/' after the document reference
 PROPALEHISTORY_ARCHIVE_PDF_TOO = Archive the PDF too
 # PROPALEHISTORY_AUTO_ARCHIVE ?
 PROPALEHISTORY_AUTO_ARCHIVE_DESC = Automatically archive a sales proposal when it is validated

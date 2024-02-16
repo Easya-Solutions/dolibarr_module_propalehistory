@@ -117,7 +117,7 @@ class ActionsPropalehistory extends \propalehistory\RetroCompatCommonHookActions
 
 				if ($versionNum > 1) {
 					$obj->context['propale_history'] = array('original_ref' => $obj->ref);
-					$obj->ref .= '/' . ($versionNum);
+					$obj->ref .= (getDolGlobalString('PROPALEHISTORY_LABEL_RELEASE_NUMBER') ? ' '.$langs->trans(getDolGlobalString('PROPALEHISTORY_LABEL_RELEASE_NUMBER')).' ' : '/') . ($versionNum);
 				}
 			}
 		}
